@@ -21,6 +21,8 @@ end
     #if move == "X" || move == "O"
       #counter =+ 1
     #end
+    #return counter
   #end
-  #return counter
+  #return needs to be here, outside of EACH "block" of code
+  #move lives within each, witin the IF blocks as well as its own each block which needs to be closed
 #end
