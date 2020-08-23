@@ -10,6 +10,10 @@ end
 
 def current_player(board)
   if turn_count 
+    
+  else turn_count 
+    
+  end
 end
   
 
