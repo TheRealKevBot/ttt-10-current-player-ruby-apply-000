@@ -42,7 +42,7 @@ ______________________________________
 #end
 
 def current_player(board)
-  turn_count(board) % 2 == 0?  "X" : "O"
+  turn_count(board) % 2 == 0 ? "X" : "O"
 end
 
 # if the turn count of the borad is divisible by 2, put X, if it is not then put O
