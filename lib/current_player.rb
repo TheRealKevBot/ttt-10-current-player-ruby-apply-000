@@ -6,7 +6,7 @@ def turn_count(board)
     if (move == "X" || move == "O") do 
       counter =+ 1
     end
-  return 
+  return counter
   end
 end
 
