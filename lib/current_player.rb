@@ -43,6 +43,7 @@ ______________________________________
 
 def current_player(board)
   turn_count(board) % 2 == 0 ? "X" : "O"
+end
+
 # if the turn count of the borad is divisible by 2, put X, if it is not then put O
 #righthand side of the boulean is true and the left side is false
-end
