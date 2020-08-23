@@ -21,6 +21,6 @@ end
     #if move == "X" || move == "O"
       #counter =+ 1
     #end
-  #return counter
   #end
+  #return counter
 #end
