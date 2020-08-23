@@ -1,7 +1,7 @@
 
 
 def turn_count(board)
-  counter = 0 
+  counter = -1 
   board.each do |move|
     if (move == "X" || move == "O")
       counter =+ 1
