@@ -21,9 +21,9 @@ end
   #return needs to be here, outside of EACH "block" of code need to really keep track of how local everything is 
   #move lives within each, witin the IF blocks as well as its own each block which needs to be closed
 #end
-
-
+______________________________________
 #returns an Integer ^--
+______________________________________
 
 #def current_player(board)
 #  if turn_count(board) % 2 == 0 
@@ -40,4 +40,7 @@ end
 #    return "O"
 #  end
 #end
+
+def current_player(board)
+  
 
