@@ -23,6 +23,6 @@ def current_player(board)
     #return counter
   #end
   #end of the EACH block
-  #return needs to be here, outside of EACH "block" of code
+  #return needs to be here, outside of EACH "block" of code need to really keep track of how local everything is 
   #move lives within each, witin the IF blocks as well as its own each block which needs to be closed
 #end
